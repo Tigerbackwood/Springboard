@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formDemo</title>
+</head>
+<body>
+    <h1>Brand Creator</h1>
+    <p>Lets make some Logos</p>
+
+    <form action="" id= 'logoForm'>
+        <p>
+            <label for="">Enter Brand Name:
+            <input type='text' placeholder='Brand name' name='brandName'>
+            </label>
+        </p>
+        <p>
+            <label for="">Choose Brand Color:
+                <input type='color' name='color'>
+            </label>
+        </p>
+        <p><label for="">Choose font size:
+            <input type='range' name='size' min='1' max = '150'>
+            </label>
+        </p>
+        <p>
+            <label for="">
+                <input type='submit'>
+            </label>
+        </p>
+    </form>
+
+    <section id='newLogo'>
+
+    </section>
+    <script src="formDemo.js"></script>
+</body>
+</html>
